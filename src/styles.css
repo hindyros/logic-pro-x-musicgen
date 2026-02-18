@@ -1,0 +1,5 @@
+body,html,#root{height:100%;margin:0;font-family:Inter, Arial, sans-serif}
+.app{display:grid;grid-template-columns:240px 1fr 320px;height:100vh}
+.tracks{background:#1b1b1b;color:#fff;padding:16px}
+.workspace{background:linear-gradient(#0f1720,#071028);color:#fff;display:flex;align-items:center;justify-content:center}
+.mixer{background:#0b0b0b;color:#fff;padding:16px}
