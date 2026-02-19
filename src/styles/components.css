@@ -1,0 +1,49 @@
+/* Component-level overrides and shared patterns */
+/* Buttons, inputs, and controls will be extended as components are built */
+
+.button-reset {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.btn-icon:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.btn-icon.active {
+  background: var(--accent-muted);
+  color: var(--accent);
+}
+
+.slider-vertical {
+  width: 8px;
+  height: 80px;
+  -webkit-appearance: slider-vertical;
+  writing-mode: vertical-lr;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin 0.8s linear infinite;
+}

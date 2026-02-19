@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tone": "^15.0.4",
+    "wavesurfer.js": "^7.8.4",
+    "@wavesurfer/react": "^1.0.12",
+    "zustand": "^5.0.2",
+    "lucide-react": "^0.468.0"
   },
   "devDependencies": {
     "vite": "^5.0.0",
